@@ -1,0 +1,196 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFFFF"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/r66mbj4wwjdp"
+        android:layout_width="match_parent"
+        android:layout_height="714dp"
+        android:layout_weight="1"
+        android:background="#EDB5B5"
+        android:backgroundTint="#E1A2A2"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FDDEDE"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodDetails"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="46dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/nfood_details"
+                android:textColor="#3C3838"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/iNameLayout"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="55dp"
+                android:layout_marginBottom="28dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="34dp"
+                android:paddingVertical="15dp">
+
+                <EditText
+                    android:id="@+id/ItemName"
+                    android:layout_width="257dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/item_name"
+                    android:minHeight="48dp"
+                    android:textColor="#FFF"
+                    android:textColorHint="#652F2F"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TPLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="54dp"
+                android:layout_marginBottom="28dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="34dp"
+                android:paddingVertical="16dp">
+
+                <EditText
+                    android:id="@+id/TimeOfPreparation"
+                    android:layout_width="257dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/time_of_preparation"
+                    android:textColor="#FFF"
+                    android:textColorHint="#652F2F"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/QLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="54dp"
+                android:layout_marginBottom="27dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="34dp"
+                android:paddingVertical="15dp">
+
+                <EditText
+                    android:id="@+id/Quantity"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/quantity"
+                    android:minHeight="48dp"
+                    android:textColor="#FFF"
+                    android:textColorHint="#652F2F"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/AddLayout"
+                android:layout_width="288dp"
+                android:layout_height="89dp"
+                android:layout_marginHorizontal="55dp"
+                android:layout_marginBottom="28dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="80dp">
+
+                <Spinner
+                    android:id="@+id/address_spinner"
+                    android:layout_width="260dp"
+                    android:layout_height="48dp"
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Utensil"
+                android:layout_width="171dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="55dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/utensils_required"
+                android:textColor="#3C3737"
+                android:textColorHint="#652F2F"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="88dp"
+                android:layout_marginBottom="19dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_yes"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="9dp"
+                    android:text="@string/yes"
+                    android:textColor="#652F2F"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_no"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:textColor="#652F2F"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/SLayout"
+                android:layout_width="322dp"
+                android:layout_height="102dp"
+                android:layout_marginHorizontal="46dp"
+                android:layout_marginBottom="76dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingVertical="25dp">
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="157dp"
+                    android:layout_height="58dp"
+                    android:backgroundTint="#531B1B"
+                    android:text="@string/submit"
+                    android:textColor="#EAD7D7"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

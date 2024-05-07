@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Eesproj_itr1" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.Eesproj_itr1" parent="Base.Theme.Eesproj_itr1" />
+</resources>

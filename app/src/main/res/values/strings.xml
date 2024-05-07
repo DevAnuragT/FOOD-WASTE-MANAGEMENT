@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ReEat</string>
+    <string name="quantity">Quantity</string>
+    <string name="address">Address</string>
+    <string name="utensils_required">Utensils Required ?</string>
+    <string name="nfood_details">Food Details:</string>
+    <string name="item_name">Item Name</string>
+    <string name="time_of_preparation">Time Of preparation(in 24 hour HH:MM format)</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="submit">Submit</string>
+    <string name="donation_history">Donation History</string>
+    <string name="delete_all_data">Delete all Data</string>
+    <string name="welcome">WELCOME!!!</string>
+    <string name="see_donations">See Donations</string>
+    <string name="make_donation">Make Donation</string>
+    <string name="be_the_change_you_nwant_to_see_in_the_world">BE THE CHANGE YOU\nWANT TO SEE IN THE WORLD </string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">OR</string>
+    <string name="sign_in">Sign In</string>
+    <string name="save_food_save_lives">Save Food Save Lives</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="arrow">></string>
+    <string name="access_donations">Access Donations</string>
+    <string-array name="address_options_array">
+        <item>IVH</item>
+        <item>GH</item>
+        <item>BH1</item>
+        <item>BH2</item>
+        <item>BH3</item>
+    </string-array>
+
+</resources>
